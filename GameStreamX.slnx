@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/GameStreamX.Benchmarks/GameStreamX.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/GameStreamX.App/GameStreamX.App.csproj" />
+    <Project Path="src/GameStreamX.Cache/GameStreamX.Cache.csproj" />
+    <Project Path="src/GameStreamX.Cli/GameStreamX.Cli.csproj" />
+    <Project Path="src/GameStreamX.Core/GameStreamX.Core.csproj" />
+    <Project Path="src/GameStreamX.Desktop/GameStreamX.Desktop.csproj" />
+    <Project Path="src/GameStreamX.Diagnostics/GameStreamX.Diagnostics.csproj" />
+    <Project Path="src/GameStreamX.Games/GameStreamX.Games.csproj" />
+    <Project Path="src/GameStreamX.Mount/GameStreamX.Mount.csproj" />
+    <Project Path="src/GameStreamX.Providers/GameStreamX.Providers.csproj" />
+    <Project Path="src/GameStreamX.SimCloud/GameStreamX.SimCloud.csproj" />
+    <Project Path="src/GameStreamX.Streaming/GameStreamX.Streaming.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GameStreamX.IntegrationTests/GameStreamX.IntegrationTests.csproj" />
+    <Project Path="tests/GameStreamX.Tests/GameStreamX.Tests.csproj" />
+    <Project Path="tests/GsxDemoGame/GsxDemoGame.csproj" />
+  </Folder>
+</Solution>
