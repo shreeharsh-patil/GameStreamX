@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\GameStreamX.Core\GameStreamX.Core.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Diagnostics\GameStreamX.Diagnostics.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Mount\GameStreamX.Mount.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Cache\GameStreamX.Cache.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Streaming\GameStreamX.Streaming.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Games\GameStreamX.Games.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Providers\GameStreamX.Providers.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.SimCloud\GameStreamX.SimCloud.csproj" />
+  </ItemGroup>
+</Project>
+
