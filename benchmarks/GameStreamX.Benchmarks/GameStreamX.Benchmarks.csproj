@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\GameStreamX.Core\GameStreamX.Core.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Diagnostics\GameStreamX.Diagnostics.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Mount\GameStreamX.Mount.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Providers\GameStreamX.Providers.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Cache\GameStreamX.Cache.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Streaming\GameStreamX.Streaming.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.Games\GameStreamX.Games.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.SimCloud\GameStreamX.SimCloud.csproj" />
+    <ProjectReference Include="..\..\src\GameStreamX.App\GameStreamX.App.csproj" />
+  </ItemGroup>
+</Project>
